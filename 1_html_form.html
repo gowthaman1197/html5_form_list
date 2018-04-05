@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Form</title>
+</head>
+<body>
+	<h1>HTML form</h1>
+	<form action="" method="post" autocomplete="on" target="_blank" enctype="multipart/form-data" novalidate>
+		<fieldset>
+			<legend>User data</legend>
+			<label for="first_name">First name</label><br>
+			<input type="text" name="first_name" id="first_name"><br><br>
+			<label for="last_name">Second name</label><br>
+			<input type="text" name="last_name" id="last_name"><br><br>
+			<input type="radio" name="gender" value="male" checked> male
+			<input type="radio" name="gender" value="female"> female
+			<input type="radio" name="gender" value="other"> other <br><br>
+			<input type="checkbox" name="vehicle1" value="Audi" checked> Audi
+			<input type="checkbox" name="vehicle2" value="Blano"> Blano
+			<input type="checkbox" name="vehicle3" value="Cargo"> Cargo <br><br>
+			<select name="cars">
+				<optgroup label="model 1">
+					<option value="audi" selected>Audi</option>
+					<option value="blano">Blano</option>
+					<option value="cargo">Cargo</option>
+				</optgroup>
+				<optgroup label="model 2">
+					<option value="audi" selected>Audi</option>
+					<option value="blano">Blano</option>
+					<option value="cargo">Cargo</option>
+				</optgroup>
+			</select><br><br>
+			<input type="text" name="cities" list="cities">
+			<datalist id="cities">
+				<option value="Andipatti">
+				<option value="Baladam">
+				<option value="Chennai">
+			</datalist><br><br>
+			<textarea rows="10" cols="20"></textarea><br><br>
+			<input type="submit" value="Save">
+			<input type="reset" value="Reset"><br><br><br><br>
+			<h1>Input types</h1>
+			<p>time, datetime, date, week, month, color, search, url, email, range, number, tel</p><br><br>
+			<h2>Input attribute</h2>
+			<p>readonly, disabled, size, maxlength, autocomplete, autofocus, form, formaction, formmethod, formnovalidate, formenctype, formtarget, list, height and width, min and max, pattern, multiple, placeholder, required, step</p>
+		</fieldset>
+	</form>
+</body>
+</html>
